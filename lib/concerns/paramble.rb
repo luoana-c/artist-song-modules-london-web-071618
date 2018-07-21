@@ -1,4 +1,4 @@
-module Paramble_broken
+module Paramble
   
   def to_param
     name.downcase.gsub(' ', '-')
